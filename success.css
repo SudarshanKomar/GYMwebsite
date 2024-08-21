@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://img.freepik.com/free-vector/vector-modern-abstract-geometric-background_260559-237.jpg?w=1060&t=st=1693312765~exp=1693313365~hmac=cfa478dd5a1ea4770327369b3935bdb9a36c66119a12d0d2b1111b341ac6be82"); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: rgba(45, 41, 41, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(255, 253, 253, 0.3);
+}
+
+.login-box h2 {
+    margin-bottom: 10px;
+    color: #eadede;
+}
+
+.login-box p {
+    color: #ffffff;
+}

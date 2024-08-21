@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    background-image: url('https://img.freepik.com/premium-photo/gym-fitness-club-with-neon-light3d-rendering_866214-3911.jpg?size=626&ext=jpg&ga=GA1.1.921952300.1690701509&semt=ais'); /* Replace with your image */
+    background-size: cover;
+}
+
+.login-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+    color: #fff;
+    width: 300px;
+    display: flex; 
+    flex-direction: column; 
+}
+
+.login-box h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-box button {
+    background-color: #0f75e0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.email-page {
+    background-color: #151935;
+}
+
+.phone-page {
+    background-color: #1e1e1e;
+}
